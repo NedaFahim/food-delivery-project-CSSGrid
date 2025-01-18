@@ -1,3 +1,22 @@
+@media(max-width:1042px) {
+    .action_order {
+        max-width: 100%;
+    }
+}
+
+@media(max-width:882px) {
+    .header_bottom {
+        margin-top: 32px;
+    }
+
+    .fixed_box_delivery {
+        top: -2rem;
+        left: -10rem;
+        font-size: 24px;
+    }
+}
+
+
 @media(max-width:834px) {
     .navigation {
         grid-template-columns: repeat(3, auto);
@@ -14,10 +33,51 @@
     .menue_icon {
         justify-self: flex-end;
     }
+
+    .content_left_header_bottom h1 {
+        font-size: 43px;
+        line-height: 50px;
+    }
+
+    .order_food {
+        margin-top: 2rem;
+    }
+
+    .action_order {
+        justify-content: flex-start;
+        gap: 1.5rem;
+    }
+
+    .button_action_order {
+        max-width: 54%;
+        padding: 5px 10px;
+        gap: 2px;
+    }
+
+    .action_order>button {
+        padding: 16px;
+        font-size: 14px;
+    }
+
+    .fixed_box_delivery {
+        padding: 6px;
+        left: -5rem;
+        top: -1rem;
+    }
+
+    .fixed_box_delivery div span {
+        font-size: 19px;
+    }
 }
 
 @media(min-width:835px) {
     .menue_icon {
         display: none;
+    }
+}
+
+@media (max-width:676px) {
+    .header_bottom {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
