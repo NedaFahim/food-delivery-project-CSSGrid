@@ -6,7 +6,7 @@
 
 body {
     font-family: poppins;
-    /* color: aquamarine; */
+    padding: 8rem;
 }
 
 ul {
@@ -363,5 +363,55 @@ a {
 .action_order>button img {
     margin-right: 5px;
     margin-bottom: 3px;
-    width:auto;
+    width: auto;
+}
+
+.row_title_section_food h4 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    color: var(--color_C90000);
+    position: relative;
+}
+
+.line_bottom_row_title {
+    width: 137px;
+    height: 9px;
+    background-color: var(--color_FFF6A3);
+    position: absolute;
+    top: 48px;
+    z-index: -1;
+}
+
+.row_button_category {
+    margin-top: 32px;
+    display: grid;
+    grid-auto-columns: 179px;
+    grid-auto-flow: column;
+    overflow: auto;
+    column-gap: 20px;
+}
+
+.row_button_category button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--color_E3E3E3);
+    background-color: var(--color_F1F1F1);
+    color: var(--color_504F4F);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 14px 20px;
+    column-gap: 8px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+.button_active_category{
+    background-color: var(--color_FFC300) !important;
+    color: var(--color_323232) !important;
+    font-weight: 600 !important;
 }
