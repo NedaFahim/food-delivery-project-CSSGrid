@@ -698,6 +698,7 @@ a {
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
 }
+
 /* 
 .section_mobile_app {
     border: 1px solid var(--color_E3E3E3);
@@ -843,4 +844,98 @@ a {
 
 .download_btn_app a:last-child {
     margin-left: 20px;
+}
+
+
+.content_search_location {
+    position: relative;
+    background-color: var(--color_323232);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* max-height: 398px; */
+    margin-bottom: 5rem;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.content_search_location h6 {
+    padding-top: 6rem;
+
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
+    color: var(--color_FFFDE6);
+}
+
+.content_search_location p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color_F1F1F1);
+    margin: 0.5rem 0 4rem 0;
+}
+
+.content_search_location form {
+    position: relative;
+    padding: 0 10px;
+    height: 56px;
+    width: 45%;
+    background-color: #FFC300;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+
+    margin-bottom: 6rem;
+}
+
+.content_search_location form input {
+    background-color: transparent;
+    border: none;
+    color: var(--color_504F4F);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    height: 100%;
+    width: 100%;
+}
+
+.content_search_location form button {
+    position: absolute;
+    right: 13px;
+    top: 8%;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 12px 24px;
+    border: 0;
+    background-color: var(--color_fff);
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+.section_search_location img {
+    max-width: 187px;
+    object-fit: cover;
+    position: absolute;
+}
+
+.salad {
+    left: 0;
+    top: 18%;
+}
+
+.hamburger{
+    bottom: 0;
+    left: 10%;
+
 }
